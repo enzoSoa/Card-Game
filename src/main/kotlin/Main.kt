@@ -1,4 +1,7 @@
+import types.Rareness
+import types.TANK
 
 fun main() {
-    println("Hello, World!")
+    val hero = Hero("Arthur", TANK(), Rareness.Legendary)
+    println(hero.infos())
 }
